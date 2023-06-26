@@ -1,0 +1,37 @@
+
+
+
+hello file test git 
+
+________________________________
+
+starting git repo _____ = git init
+
+allow files  _____ git add firle nam or git add . 
+
+save puckup ____ git command -m "message"
+
+show all coping ___ git log
+
+status _____ git status 
+
+____________________________________________________
+
+branch: 
+open branch ____ git checkout (name branch)
+
+create and open  branch ________ git checkout -b name_branch
+
+show all branchs  ______________   git branch
+ 
+git checkout master ____________ master is checked out
+
+git pull _____________update local
+
+git merge new-feature ___________ merge branch new-feature into master
+
+git push	_________   changes on remote. Then checkout a feature branch
+
+
+
+

@@ -1,0 +1,75 @@
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+.banner-bg {
+    background-color: #E9EDF4;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.banner-subtitle {
+    color: #7153d9;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.banner-title {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.banner-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #54545f;
+}
+
+.banner-btn {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(135deg, #7153d9 0%, #5435be 45%, #4526b1 66%);
+    padding: 15px 40px;
+    border-radius: 40px;
+}
+
+.navbar-fixed-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-active {
+    background-color: #fff;
+    box-shadow: 5px -1px 12px -5px grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.feature-icon {
+    background-color: #E9EDF4;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 6.2;
+}
+
+.feature-text {
+    color: #54545f;
+}
+
+.image-section {
+    min-height: 451px;
+}
+
+.seperator{
+    width: 2% !important;
+}

@@ -1,0 +1,22 @@
+
+                             video 5 in course  
+* python is interpreter ----> يعني الكود بيتنفذ من فوق لتحت و اول ميشوف خطا
+ ب يفشل الكود عكس الكوبايلر
+
+
+* ternary operation ---> True condtion False 
+ex. 
+ print("you a success") if degree >= 50 else print("you a fail")
+
+* function  ([all])  and  ([any])  in condation ---->  But using more and i'm using function ([all] )  
+     But using more or   i'm using function ([any] ) 
+
+*  example for not equal in if condtion  
+ex.    a,b = 5,6 
+if not (a==5 and b==6):
+     print("ok")
+
+ 
+
+
+             

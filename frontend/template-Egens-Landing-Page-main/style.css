@@ -1,0 +1,55 @@
+body{
+    /* background-color: #E9EDF4; */
+    font-family: 'Jost',sans-serif;
+}
+
+
+.banner-color{
+    background-color: #E9EDF4;
+
+}
+.navbar-nav{
+    padding: 3;
+    margin-left: 50px;
+}
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.nav-item{
+    margin-right: 40px;
+}
+.banner-subtitle{
+color: #7153d9;
+font-size: 24px;
+font-weight: 500;
+}
+.banner-tiitle{
+    font-size: 72px;
+    font-weight: 700;
+}
+.banner-text{
+    font-size: 24px;
+    font-weight: 400;
+    color: #54545f;
+    margin-bottom: 50px;
+}
+.banner-btn{
+    text-decoration: none;
+    background: linear-gradient(135deg, #7153d9 0%, #5435be 45%, #4526b1 66%);     color: aliceblue;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.feature-icon{
+    background-color: #E9EDF4;
+    padding: 60px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    /* line-height: 6.2; */
+
+}
+
