@@ -247,27 +247,35 @@ Bank
 # 161 ,182 ,161, 154, 176 ,170, 167, 171, 170 ,174]))
 
 
-def average(arr):
-    distinct_heights = set(arr)  # Create a set of distinct heights
-    sum_heights = sum(distinct_heights)  # Calculate the sum of distinct heights
-    num_heights = len(distinct_heights)  # Calculate the number of distinct heights
-    avg = sum_heights / num_heights  # Calculate the average
-    return round(avg, 3)  # Round the average to 3 decimal places
+# def average(arr):
+#     distinct_heights = set(arr)  # Create a set of distinct heights
+#     sum_heights = sum(distinct_heights)  # Calculate the sum of distinct heights
+#     num_heights = len(distinct_heights)  # Calculate the number of distinct heights
+#     avg = sum_heights / num_heights  # Calculate the average
+#     return round(avg, 3)  # Round the average to 3 decimal places
 
-# Read input
-n = int(input())
-heights = list(map(int, input().split()))
+# # Read input
+# n = int(input())
+# heights = list(map(int, input().split()))
 
-# Calculate and print the average
-result = average(heights)
-print(result)
+# # Calculate and print the average
+# result = average(heights)
+# print(result)
+############################################################
+# frontend 
+# <iframe src="https://vk.com/video_ext.php?oid=786888529&id=456239886&hash=dabfa93fa377a62f" width="640" height="360" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+
+
+# exam python 
 
 
 
 
 
 
-<iframe src="https://vk.com/video_ext.php?oid=786888529&id=456239886&hash=dabfa93fa377a62f" width="640" height="360" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+
 
 
 
