@@ -93,13 +93,47 @@
 
 
 
-from itertools import product
-a = input("entera: ") 
-b = input("enterb: ") 
-a= a.split()
-b= b.split()
+# from itertools import product
+# a = input() 
+# b = input() 
+# a= a.split()
+# b= b.split()
+# for i in a:
+#     for ii in b:
+#         print(f"({i},{ii}) " ,end='')
+
+# from itertools import product
+# a = map(int, input().split())
+# b = map(int, input().split())
+
+# print(*product(a, b))
 
 
-for i in a:
-    for ii in b:
-        print(f" ({i},{ii})" ,end='')
+
+
+
+
+# T = int(input())
+# S = input()
+
+# if 0 < T < 100:
+#     if S == ".*" :
+#         print ("True")
+#     else:
+#         print("False")    
+
+# import re 
+# T = int(input())
+# S = re
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+
+import re
+for _ in range(int(input())):
+    ans = True
+    try:
+        reg = re.compile(input())
+    except re.error:
+        ans = False
+    print(ans)
+
