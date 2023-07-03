@@ -20,6 +20,10 @@ git add .    or git add filename
 
 ```
 git commit -m "mmessage"
+لاستراجاع التعليق هذا  و انا مش واقف عليه حاليا عشان استرجعه استخدم 
+git reset #commitID
+or 
+git revert 882ad02
 ```
 
 4. git log ------> show all commit "messages"
