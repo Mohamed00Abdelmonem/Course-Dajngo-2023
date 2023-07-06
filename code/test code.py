@@ -128,12 +128,68 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
 
-import re
-for _ in range(int(input())):
-    ans = True
-    try:
-        reg = re.compile(input())
-    except re.error:
-        ans = False
-    print(ans)
+# import re
+# for _ in range(int(input())):
+#     ans = True
+#     try:
+#         reg = re.compile(input())
+#     except re.error:
+#         ans = False
+#     print(ans)
 
+
+# def solve(s):
+#     word = s.split()
+#     result = [w.capitalize() for w in word if 0 < len(word)<1000]
+#     return (' '.join(result))
+    
+ 
+# print(solve("hello    mohamed"))
+    
+
+
+# N, M = map(int,raw_input().split()) # More than 6 lines of code will result in 0 score. Blank lines are not counted.
+# for i in xrange(1,N,2): 
+#     print ('.|.'*i).center(M,'-')
+# print "WELCOME".center(M,'-')
+# for i in xrange(N-2,-1,-2): 
+#     print ('.|.'*i).center(M,'-')
+
+
+
+
+
+
+
+# size = int(input("enter size : "))
+
+# letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+# for i in range(size-1, -1,-1):
+#     result = letters[:size-i]
+
+#     result = (" ".join(result))
+   
+#     print(f"{size*'-'}-{result}-{result}-{size*'-'}")
+# print(f"-------- {result} --------", end=" ")
+
+
+
+def print_rangoli(size):
+    w = 2 * (size + size - 1) - 1
+    l = [chr(ord("a")+i) for i in range(size)]
+    r = [chr(ord("a")+i) for i in range(size-1, -1, -1)]
+    for i in range(size):
+        print("-".join(e for e in r[0:i]+l[-1-i:]).center(w, "-"))
+    for i in range(size-2, -1, -1):
+        print("-".join(e for e in r[0:i]+l[-1-i:]).center(w, "-")) 
+
+print(print_rangoli(5))
+
+
+
+
+
+# r = [chr(ord("a")+i) for i in range(size-1, -1, -1)]
+
+# print(r)

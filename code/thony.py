@@ -1,9 +1,15 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-import re
-for _ in range(int(input())):
-    ans = True
-    try:
-        reg = re.compile(input())
-    except re.error:
-        ans = False
-    print(ans)
+def solve(s):
+    result = ""
+    new = s.split(" ")
+    for i in new:
+        result +=" "+i.capitalize()
+        
+    return result[1:] 
+    
+print(solve("hello     mohamed"))
+
+
+
+       
+       
+         
