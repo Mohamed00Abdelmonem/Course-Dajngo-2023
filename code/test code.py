@@ -60,12 +60,12 @@
 
 
 
-# var = "James Bond"
-# print(var[2::-1])
+var = "James Bond"
+print(var[2::-1])
 
-# sampleSet = {"Jodi", "Eric", "Garry"}
-# sampleSet.add( "Vicki")
-# print(sampleSet)
+sampleSet = {"Jodi", "Eric", "Garry"}
+sampleSet.add( "Vicki")
+
 
 
 
@@ -175,16 +175,16 @@
 
 
 
-def print_rangoli(size):
-    w = 2 * (size + size - 1) - 1
-    l = [chr(ord("a")+i) for i in range(size)]
-    r = [chr(ord("a")+i) for i in range(size-1, -1, -1)]
-    for i in range(size):
-        print("-".join(e for e in r[0:i]+l[-1-i:]).center(w, "-"))
-    for i in range(size-2, -1, -1):
-        print("-".join(e for e in r[0:i]+l[-1-i:]).center(w, "-")) 
+# def print_rangoli(size):
+#     w = 2 * (size + size - 1) - 1
+#     l = [chr(ord("a")+i) for i in range(size)]
+#     r = [chr(ord("a")+i) for i in range(size-1, -1, -1)]
+#     for i in range(size):
+#         print("-".join(e for e in r[0:i]+l[-1-i:]).center(w, "-"))
+#     for i in range(size-2, -1, -1):
+#         print("-".join(e for e in r[0:i]+l[-1-i:]).center(w, "-")) 
 
-print(print_rangoli(5))
+# print(print_rangoli(5))
 
 
 
